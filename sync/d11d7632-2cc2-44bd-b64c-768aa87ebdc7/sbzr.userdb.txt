@@ -1,0 +1,75 @@
+# Rime user dictionary
+#@/db_name	sbzr
+#@/db_type	userdb
+#@/rime_version	1.14.0
+#@/tick	69
+#@/user_id	d11d7632-2cc2-44bd-b64c-768aa87ebdc7
+bkfuia 	暴富	c=1 d=0.88692 t=69
+chuoaa 	仓	c=1 d=0.985112 t=69
+ckjwei 	抄家	c=1 d=0.99005 t=69
+ckjwei 	曹佳	c=1 d=0.965605 t=69
+cldjei 	菜单	c=1 d=0.955997 t=69
+dazeei 	打折	c=1 d=0.965605 t=69
+fhvjo	方案	c=1 d=1 t=1
+fhvjo 	方案	c=1 d=1 t=69
+gusiua 	股市	c=1 d=0.955997 t=69
+jisroa 	计算	c=1 d=0.97531 t=69
+keyiei 	可以	c=1 d=0.99005 t=69
+luzhia 	路障	c=1 d=0.99005 t=69
+maeuia 	码	c=1 d=1 t=69
+mgsbua 	猛兽	c=2 d=1.91678 t=69
+pifuau 	皮肤	c=1 d=1 t=69
+pldvei 	排队	c=1 d=0.965605 t=69
+pldvoo 	派对	c=1 d=0.97531 t=69
+pyfhei 	苹方	c=1 d=0.995012 t=69
+sbqiai 	收起	c=1 d=0.960789 t=69
+sghwue 	生化	c=1 d=0.946485 t=69
+tiquei 	提取	c=1 d=1 t=69
+wzjiua 	危机	c=1 d=0.951229 t=69
+xduiua 	像	c=1 d=0.985112 t=69
+yayaia 	呀呀	c=1 d=0.937067 t=69
+yriaia 	圆	c=1 d=0.932394 t=69
+yriaia 	圓	c=1 d=0.923116 t=69
+yueiie 	芋	c=1 d=0.918512 t=69
+yuyrao 	豫园	c=1 d=0.913931 t=69
+zingia 	只能	c=1 d=0.980199 t=69
+zingue 	智能	c=1 d=0.985112 t=69
+zirjui 	自然	c=1 d=0.995012 t=69
+zitioo 	字体	c=1 d=0.99005 t=69
+zujiia 	助记	c=1 d=0.965605 t=69
+encbcjwoa 	被曹佳	c=1 d=0.970446 t=69
+encbfqbia 	暴富前被	c=1 d=0.927743 t=69
+encbfqmia 	暴富前	c=1 d=0.900325 t=69
+encbfqpia 	暴富前被	c=1 d=0.932394 t=69
+encdsmaei 	打折吗	c=1 d=0.99005 t=69
+encgsyeua 	股市也	c=1 d=0.960789 t=69
+encgsysua 	股市也打折	c=1 d=0.980199 t=69
+encgsyzua 	股市也打折	c=1 d=0.985112 t=69
+encjirjae 	即然	c=1 d=1 t=69
+enckylcei 	可以了	c=1 d=0.995012 t=69
+encmspdua 	猛兽排队	c=1 d=0.970446 t=69
+encpbfboo 	怕暴富前被	c=1 d=0.946485 t=69
+encpbfpoo 	怕暴富前被	c=1 d=0.951229 t=69
+encpbfqoo 	怕暴富前	c=1 d=0.909373 t=69
+encpbfuoo 	怕暴富	c=1 d=0.891366 t=69
+encpcjwoa 	被曹佳	c=1 d=0.97531 t=69
+encpfqbia 	暴富前被	c=1 d=0.937067 t=69
+encpfqmia 	暴富前	c=1 d=0.904837 t=69
+encpfqpia 	暴富前被	c=1 d=0.941765 t=69
+encppfboo 	怕暴富前被	c=1 d=0.955997 t=69
+encppfpoo 	怕暴富前被	c=1 d=0.960789 t=69
+encppfqoo 	怕暴富前	c=1 d=0.913931 t=69
+encppfuoo 	怕暴富	c=1 d=0.895834 t=69
+encqbcjou 	前被曹佳	c=1 d=0.980199 t=69
+encqmbzou 	前被	c=1 d=0.918512 t=69
+encqmpiou 	前被	c=1 d=0.923116 t=69
+encqpcjou 	前被曹佳	c=1 d=0.985112 t=69
+encsqzjai 	收起助记	c=1 d=0.970446 t=69
+encydseai 	也打折	c=1 d=0.970446 t=69
+encydsmai 	也打折吗	c=1 d=0.995012 t=69
+encydzeai 	也打折	c=1 d=0.97531 t=69
+encydzmai 	也打折吗	c=1 d=1 t=69
+encyuyrei 	芋圓	c=1 d=0.927743 t=69
+encyyyaia 	圆呀呀	c=1 d=0.941765 t=69
+enczjjsia 	助记计算	c=1 d=0.980199 t=69
+encznlzue 	智能路障	c=1 d=0.995012 t=69

@@ -1,0 +1,6 @@
+# Rime user dictionary
+#@/db_name	moran_english
+#@/db_type	userdb
+#@/rime_version	1.14.0
+#@/tick	0
+#@/user_id	d11d7632-2cc2-44bd-b64c-768aa87ebdc7

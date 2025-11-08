@@ -1,0 +1,52 @@
+# Rime user dictionary
+#@/db_name	moran
+#@/db_type	userdb
+#@/rime_version	1.14.0
+#@/tick	53
+#@/user_id	d11d7632-2cc2-44bd-b64c-768aa87ebdc7
+bj;pf 	版	c=1 d=0.951229 t=53
+bu;ad 	不	c=1 d=0.985112 t=53
+bz;ag mz;dy 	北美	c=1 d=0.960789 t=53
+cj;sp jw;lk 	参加	c=1 d=1 t=52
+dj;rd ui;op 	但是	c=1 d=0.970446 t=53
+do;xx py;aa tl;sk 	多平台	c=1 d=0.995012 t=53
+er;aa vb;kj mu;aa 	二周目	c=1 d=1 t=53
+hb;ru xr;zx 	候选	c=1 d=0.913931 t=53
+hk;nz 	好	c=1 d=1 t=53
+hl;zb ng;sb 	还能	c=1 d=1 t=51
+hl;zb yb;ou 	还有	c=1 d=1 t=49
+ho;du ds;ly 	活动	c=1 d=1 t=50
+is;dv lh;dl 	冲浪	c=1 d=0.99005 t=53
+jc;cj 	蕉	c=1 d=0.985112 t=53
+ke;dk ui;op 	可是	c=1 d=0.97531 t=53
+ku;kq 	哭	c=1 d=0.895834 t=53
+le;aa 	了	c=1 d=0.965605 t=53
+li;aa 	里	c=1 d=0.995012 t=53
+li;gp 	力	c=1 d=0.99005 t=53
+ma;km 	吗	c=1 d=1 t=53
+mz;du yb;ou 	没有	c=1 d=0.97531 t=53
+pl;ff 	排	c=1 d=0.937067 t=53
+pz;yj vi;sv 	配置	c=3 d=2.6084 t=53
+qr;rw kl;ac 	全开	c=1 d=0.995012 t=53
+ru;dn yk;xf 	汝窑	c=1 d=1 t=53
+tm;dt jw;lk 	添加	c=1 d=0.960789 t=53
+ts;kk bu;vx 	同步	c=1 d=1 t=53
+uf;uu nl;du ir;pa 	神奈川	c=1 d=0.985112 t=53
+ug;na xc;wj 	生效	c=1 d=0.980199 t=53
+ui;op ba;kb 	是吧	c=1 d=0.970446 t=53
+ui;rl ys;kf 	使用	c=1 d=0.99005 t=53
+uu;iy ru;pd fa;dq 	输入法	c=1 d=0.923116 t=53
+uu;iy ru;pd fh;wd an;ma 	输入方案	c=1 d=1 t=53
+uu;ly 	竖	c=2 d=1.87416 t=53
+uu;ly xd;pk 	竖向	c=1 d=0.909373 t=53
+ve;zw ge;ra 	这个	c=2 d=1.94092 t=53
+wf;wi jm;rn 	文件	c=2 d=1.8696 t=53
+wh;aa lu;zg fz;yd 	王路飞	c=1 d=0.965605 t=53
+wo;pd 	我	c=1 d=0.980199 t=53
+xc;ad qi;rv ee;nw 	小企鹅	c=2 d=1.84626 t=53
+xd;rx 	像	c=1 d=1 t=53
+zf;xv me;ps 	怎么	c=2 d=1.78282 t=53
+zl;aa 	再	c=1 d=0.951229 t=53
+zl;ta 	在	c=1 d=0.955997 t=53
+zs;sc 	纵	c=1 d=0.946485 t=53
+zs;sc xd;pk 	纵向	c=1 d=0.955997 t=53

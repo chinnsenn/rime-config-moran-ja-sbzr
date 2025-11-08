@@ -1,0 +1,5 @@
+patch:
+  moran/inject_fixed_chars: true ## 開啓單字注入
+  moran/inject_fixed_words: true ## 關閉詞語注入
+  moran/enable_quick_code_hint: false # 开启简码提示
+  moran/enable_aux_hint: true # 开启辅助码提示

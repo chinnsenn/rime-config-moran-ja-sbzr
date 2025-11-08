@@ -1,0 +1,7 @@
+# Rime table
+#@/db_name	moran_fixed_simp
+#@/db_type	tabledb
+#@/rime_version	1.14.0
+#@/tick	2
+的	d	1
+好	hk	1
