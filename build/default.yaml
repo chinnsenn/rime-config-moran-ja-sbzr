@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.14.0
   timestamps:
     default: 1761829395
-    default.custom: 1762575590
+    default.custom: 1762587902
     key_bindings: 1762422242
     key_bindings.custom: 0
     punctuation: 1762422242
@@ -124,9 +124,9 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 schema_list:
+  - schema: moran
   - schema: sbzr
   - schema: jaroomaji
-  - schema: moran
 style:
   candidate_list_layout: linear
   text_orientation: vertical

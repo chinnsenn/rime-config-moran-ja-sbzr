@@ -2,51 +2,80 @@
 #@/db_name	moran
 #@/db_type	userdb
 #@/rime_version	1.14.0
-#@/tick	53
+#@/tick	94
 #@/user_id	d11d7632-2cc2-44bd-b64c-768aa87ebdc7
-bj;pf 	版	c=1 d=0.951229 t=53
-bu;ad 	不	c=1 d=0.985112 t=53
-bz;ag mz;dy 	北美	c=1 d=0.960789 t=53
-cj;sp jw;lk 	参加	c=1 d=1 t=52
-dj;rd ui;op 	但是	c=1 d=0.970446 t=53
-do;xx py;aa tl;sk 	多平台	c=1 d=0.995012 t=53
-er;aa vb;kj mu;aa 	二周目	c=1 d=1 t=53
-hb;ru xr;zx 	候选	c=1 d=0.913931 t=53
-hk;nz 	好	c=1 d=1 t=53
-hl;zb ng;sb 	还能	c=1 d=1 t=51
-hl;zb yb;ou 	还有	c=1 d=1 t=49
-ho;du ds;ly 	活动	c=1 d=1 t=50
-is;dv lh;dl 	冲浪	c=1 d=0.99005 t=53
-jc;cj 	蕉	c=1 d=0.985112 t=53
-ke;dk ui;op 	可是	c=1 d=0.97531 t=53
-ku;kq 	哭	c=1 d=0.895834 t=53
-le;aa 	了	c=1 d=0.965605 t=53
-li;aa 	里	c=1 d=0.995012 t=53
-li;gp 	力	c=1 d=0.99005 t=53
-ma;km 	吗	c=1 d=1 t=53
-mz;du yb;ou 	没有	c=1 d=0.97531 t=53
-pl;ff 	排	c=1 d=0.937067 t=53
-pz;yj vi;sv 	配置	c=3 d=2.6084 t=53
-qr;rw kl;ac 	全开	c=1 d=0.995012 t=53
-ru;dn yk;xf 	汝窑	c=1 d=1 t=53
-tm;dt jw;lk 	添加	c=1 d=0.960789 t=53
-ts;kk bu;vx 	同步	c=1 d=1 t=53
-uf;uu nl;du ir;pa 	神奈川	c=1 d=0.985112 t=53
-ug;na xc;wj 	生效	c=1 d=0.980199 t=53
-ui;op ba;kb 	是吧	c=1 d=0.970446 t=53
-ui;rl ys;kf 	使用	c=1 d=0.99005 t=53
-uu;iy ru;pd fa;dq 	输入法	c=1 d=0.923116 t=53
-uu;iy ru;pd fh;wd an;ma 	输入方案	c=1 d=1 t=53
-uu;ly 	竖	c=2 d=1.87416 t=53
-uu;ly xd;pk 	竖向	c=1 d=0.909373 t=53
-ve;zw ge;ra 	这个	c=2 d=1.94092 t=53
-wf;wi jm;rn 	文件	c=2 d=1.8696 t=53
-wh;aa lu;zg fz;yd 	王路飞	c=1 d=0.965605 t=53
-wo;pd 	我	c=1 d=0.980199 t=53
-xc;ad qi;rv ee;nw 	小企鹅	c=2 d=1.84626 t=53
-xd;rx 	像	c=1 d=1 t=53
-zf;xv me;ps 	怎么	c=2 d=1.78282 t=53
-zl;aa 	再	c=1 d=0.951229 t=53
-zl;ta 	在	c=1 d=0.955997 t=53
-zs;sc 	纵	c=1 d=0.946485 t=53
-zs;sc xd;pk 	纵向	c=1 d=0.955997 t=53
+aa;ek 	阿	c=1 d=1 t=94
+bj;pf 	版	c=1 d=0.951229 t=94
+bu;ad 	不	c=1 d=0.985112 t=94
+bu;ad ts;kk 	不同	c=1 d=0.913931 t=94
+bz;ag mz;dy 	北美	c=1 d=0.960789 t=94
+ch;re 	仓	c=1 d=0.99005 t=94
+ch;re ku;gi 	仓库	c=3 d=2.80284 t=94
+cj;sp jw;lk 	参加	c=1 d=0.995012 t=94
+cl;bc li;gp xs;vh hb;iz 	财力雄厚	c=1 d=0.980199 t=94
+de;bu 	的	c=1 d=0.960789 t=94
+dh;xx qm;bd 	当前	c=1 d=0.927743 t=94
+di;zd gv;ax 	递归	c=1 d=0.951229 t=94
+dj;rd ui;op 	但是	c=1 d=0.970446 t=94
+do;xx py;aa tl;sk 	多平台	c=1 d=0.995012 t=94
+er;aa vb;kj mu;aa 	二周目	c=1 d=1 t=94
+ge;pa 	个	c=1 d=1 t=94
+gk;wk ij;wp 	高产	c=1 d=1 t=94
+go;zc yu;aa 	过于	c=1 d=0.995012 t=94
+gs;aa ig;hi 	工程	c=1 d=0.878095 t=94
+hb;ru xr;zx 	候选	c=1 d=0.913931 t=94
+hk;nz 	好	c=1 d=1 t=94
+hl;zb ng;sb 	还能	c=1 d=0.99005 t=94
+hl;zb yb;ou 	还有	c=1 d=0.980199 t=94
+ho;du ds;ly 	活动	c=1 d=0.985112 t=94
+hv;kk gp;dg 	回滚	c=1 d=0.99005 t=94
+hv;ry ie;aa 	会车	c=1 d=0.985112 t=94
+ih;jk vu;mv 	常驻	c=1 d=0.995012 t=94
+is;dv lh;dl 	冲浪	c=1 d=0.99005 t=94
+jc;cj 	蕉	c=1 d=0.985112 t=94
+jm;dv bm;wy 	渐变	c=1 d=0.99005 t=94
+ke;dk ui;op 	可是	c=1 d=0.97531 t=94
+kk;fk bz;ad 	拷贝	c=1 d=1 t=94
+ku;kq 	哭	c=1 d=0.895834 t=94
+le;aa 	了	c=1 d=0.965605 t=94
+li;aa 	里	c=1 d=0.995012 t=94
+li;gp 	力	c=1 d=0.99005 t=94
+ma;km 	吗	c=1 d=1 t=94
+mg;om ls;ol 	朦胧	c=1 d=0.985112 t=94
+my;xk ig;he 	名称	c=2 d=1.80521 t=94
+mz;du yb;ou 	没有	c=1 d=0.97531 t=94
+pl;ff 	排	c=1 d=0.937067 t=94
+pz;yj vi;sv 	配置	c=3 d=2.6084 t=94
+qi;oq 	期	c=2 d=1.97516 t=94
+qr;rw kl;ac 	全开	c=1 d=0.995012 t=94
+ru;dn yk;xf 	汝窑	c=1 d=1 t=94
+ru;nk he;rk 	如何	c=4 d=3.75165 t=94
+so;hj yb;ou 	所有	c=1 d=0.937067 t=94
+ti;fu jc;li 	提交	c=1 d=0.995012 t=94
+tm;dt jw;lk 	添加	c=1 d=0.960789 t=94
+ts;kk bu;vx 	同步	c=1 d=1 t=94
+ue;yu vi;sv 	设置	c=1 d=0.88692 t=94
+uf;uu nl;du ir;pa 	神奈川	c=1 d=0.985112 t=94
+ug;na xc;wj 	生效	c=1 d=0.980199 t=94
+ui;op ba;kb 	是吧	c=1 d=0.970446 t=94
+ui;rl ys;kf 	使用	c=2 d=1.9802 t=94
+uu;iy ru;pd fa;dq 	输入法	c=2 d=1.90438 t=94
+uu;iy ru;pd fh;wd an;ma 	输入方案	c=1 d=1 t=94
+uu;ly 	竖	c=2 d=1.87416 t=94
+uu;ly xd;pk 	竖向	c=1 d=0.909373 t=94
+ve;zw ge;ra 	这个	c=2 d=1.94092 t=94
+vv;zv zs;zz 	追踪	c=1 d=0.923116 t=94
+wf;wi jm;rn 	文件	c=3 d=2.57526 t=94
+wf;wi jm;rn jw;fb 	文件夹	c=1 d=0.891366 t=94
+wh;aa lu;zg fz;yd 	王路飞	c=1 d=0.965605 t=94
+wo;pd 	我	c=1 d=0.980199 t=94
+xc;ad qi;rv ee;nw 	小企鹅	c=2 d=1.84626 t=94
+xd;rx 	像	c=1 d=1 t=94
+yi;aa ci;dq 	一次	c=1 d=0.97531 t=94
+yi;vg jy;sg 	已经	c=2 d=1.90248 t=94
+yu;aa 	与	c=1 d=0.900325 t=94
+zf;xv me;ps 	怎么	c=3 d=2.76009 t=94
+zl;aa 	再	c=1 d=0.951229 t=94
+zl;ta 	在	c=1 d=0.955997 t=94
+zs;sc 	纵	c=1 d=0.946485 t=94
+zs;sc xd;pk 	纵向	c=1 d=0.955997 t=94

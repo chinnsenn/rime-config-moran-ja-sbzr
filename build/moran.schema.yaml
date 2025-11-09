@@ -2,12 +2,12 @@ __build_info:
   rime_version: 1.14.0
   timestamps:
     default: 1761829395
-    default.custom: 1762575590
+    default.custom: 1762587902
     key_bindings: 1762422242
     key_bindings.custom: 0
     moran: 1762422284
-    moran.custom: 1762576669
-    moran.schema: 1762422284
+    moran.custom: 1762576843
+    moran.schema: 1762649820
     moran_defs: 1762422242
     moran_defs.custom: 0
     punctuation: 1762422242
@@ -727,26 +727,9 @@ std_tw:
   tags:
     - abc
 switches:
-  - name: ascii_mode
-    states: ["中文", "西文"]
   - name: full_shape
     states: ["半角", "全角"]
   - name: traditionalization
     states: ["汉字", "漢字"]
   - name: ascii_punct
     states: ["。，", "．，"]
-  - name: extended_charset
-    states: ["通用", "增廣"]
-  - name: inflexible
-    states: ["動詞", "固詞"]
-  - name: emoji
-    states: ["🈚", "🈶"]
-  - name: chaifen
-    states: ["不拆", "扌斥"]
-  - name: pinyinhint
-    states: ["🔇", "🔊"]
-  - name: unicode_comment
-    states: ["U關", "U開"]
-  - options: [std_opencc, std_tw, std_hk, std_dzing]
-    reset: 0
-    states: ["通", "臺", "港", "寍"]

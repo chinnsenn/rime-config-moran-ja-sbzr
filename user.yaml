@@ -1,10 +1,16 @@
 var:
-  last_build_time: 1762576698
+  last_build_time: 1762649866
   option:
+    ascii_punct: false
+    emoji: false
+    extended_charset: false
     full_shape: false
+    inflexible: false
+    traditionalization: false
+    unicode_comment: false
   previously_selected_schema: moran
   schema_access_time:
-    jaroomaji: 1762587405
-    moran: 1762587439
+    jaroomaji: 1762648323
+    moran: 1762649583
     moran_fixed: 1762559955
     sbzr: 1762573602

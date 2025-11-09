@@ -21,32 +21,32 @@ schema:
     - zrlf
 
 switches:
-  - name: ascii_mode
-    states: [ 中文, 西文 ]
+  #  - name: ascii_mode
+  #    states: [中文, 西文]
   - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [半角, 全角]
   - name: traditionalization
-    states: [ 汉字, 漢字 ]
+    states: [汉字, 漢字]
   - name: ascii_punct
-    states: [ 。，, ．， ]
-  - name: extended_charset
-    states: [ 通用, 增廣 ]
-  - name: inflexible
-    states: [ 動詞, 固詞 ] # 「固詞」表示「固頂詞」
-    # 默認情況下，輸入 4 碼時，會禁止碼表輸出（「動詞」模式）。
-    # 這是因爲碼表最大碼長爲 4，可能會產生較低頻的多字詞，覆蓋過用戶自造的常用詞語。
-    # 當固詞模式啓動後，輸入 4 碼時會優先輸出碼表中的二字詞，這些輸出帶有「⚡️」標記。
-  - name: emoji
-    states: [ 🈚, 🈶 ]
-  - name: chaifen
-    states: [ 不拆, 扌斥 ]
-  - name: pinyinhint
-    states: [ 🔇, 🔊 ]
-  - name: unicode_comment
-    states: [ U關, U開 ]
-  - options: [ std_opencc,  std_tw, std_hk, std_dzing ]
-    reset: 0
-    states: [ 通, 臺, 港, 寍 ]
+    states: [。，, ．，]
+#  - name: extended_charset
+#    states: [通用, 增廣]
+#  - name: inflexible
+#    states: [動詞, 固詞] # 「固詞」表示「固頂詞」
+# 默認情況下，輸入 4 碼時，會禁止碼表輸出（「動詞」模式）。
+# 這是因爲碼表最大碼長爲 4，可能會產生較低頻的多字詞，覆蓋過用戶自造的常用詞語。
+# 當固詞模式啓動後，輸入 4 碼時會優先輸出碼表中的二字詞，這些輸出帶有「⚡️」標記。
+#  - name: emoji
+#    states: [ 🈚, 🈶 ]
+#  - name: chaifen
+#    states: [ 不拆, 扌斥 ]
+#  - name: pinyinhint
+#    states: [ 🔇, 🔊 ]
+#  - name: unicode_comment
+#    states: [ U關, U開 ]
+#  - options: [ std_opencc,  std_tw, std_hk, std_dzing ]
+#    reset: 0
+#    states: [ 通, 臺, 港, 寍 ]
 
 engine:
   processors:
@@ -78,14 +78,14 @@ engine:
     - reverse_lookup_translator@reverse_cangjie5
     - reverse_lookup_translator@reverse_zrlf
     - reverse_lookup_translator@reverse_bopomofo
-    - table_translator@custom_phrase       # 自定義短語
-    - table_translator@english             # 英語混輸
+    - table_translator@custom_phrase # 自定義短語
+    - table_translator@english # 英語混輸
     #- table_translator@japanese_o          # 日語引導輸入
     #- table_translator@japanese            # 日語混輸
     - lua_translator@*moran_express_translator@with_reorder # 翻譯器
-    - lua_translator@*moran_shijian        # 日期orq 節氣ojq 星期oxq 時間osj
-    - lua_translator@*moran_number         # 數字轉大寫, 大寫S引導, 如 S123
-    - lua_translator@*moran_unicode        # Unicode輸入, 大寫U引導, 如 U9b54
+    - lua_translator@*moran_shijian # 日期orq 節氣ojq 星期oxq 時間osj
+    - lua_translator@*moran_number # 數字轉大寫, 大寫S引導, 如 S123
+    - lua_translator@*moran_unicode # Unicode輸入, 大寫U引導, 如 U9b54
     - lua_translator@*moran_pin*panacea_translator
     - history_translator@quick_repeat
   filters:
@@ -101,8 +101,8 @@ engine:
     - simplifier@std_tw
     - simplifier@std_dzing
     - simplifier@simplifier
-    - lua_filter@*moran_charset_comment_filter  # Unicode 區位提示
-    - lua_filter@*moran_unicode_display_filter  # Unicode 編碼提示
+    - lua_filter@*moran_charset_comment_filter # Unicode 區位提示
+    - lua_filter@*moran_unicode_display_filter # Unicode 編碼提示
     - lua_filter@*moran_english_filter
     - uniquifier
 
@@ -119,7 +119,7 @@ speller:
       - moran:/algebra/user_sentence_bottom?
       - moran:/algebra/user_force_bottom?
 
-smart:         # 整句輸入模式設置，在 top_translator 中被調用
+smart: # 整句輸入模式設置，在 top_translator 中被調用
   dictionary: moran.extended
   prism: moran
   initial_quality: 5
@@ -131,7 +131,7 @@ smart:         # 整句輸入模式設置，在 top_translator 中被調用
   core_word_length: 4
   max_word_length: 10
 
-fixed:         # 固頂輸入模式設置，在 top_translator 中被調用
+fixed: # 固頂輸入模式設置，在 top_translator 中被調用
   dictionary: moran_fixed_simp
   initial_quality: 100
   enable_completion: false
@@ -149,7 +149,7 @@ custom_phrase: # 自定義短語
   initial_quality: 1000
 
 english:
-  tag: english  # librime<=1.11 請在 custom 中置空
+  tag: english # librime<=1.11 請在 custom 中置空
   dictionary: moran_english
   prism: moran_english
   enable_completion: true
@@ -180,7 +180,7 @@ japanese_o:
   tips: "〔日本語〕"
   enable_completion: true
 
-quick_repeat:  # 快速重複上屏
+quick_repeat: # 快速重複上屏
   input: ";d"
   size: 1
   initial_quality: 0
@@ -321,7 +321,7 @@ recognizer:
     number: "^S[0-9]+"
     shijian: "^N[0-9]+"
     uppercase: "[A-Z][-_+.'A-Za-z]*$"
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
     # 反查
     reverse_universal: "(^(`[a-z`]+))|(^([a-z]{2}(`[a-z`]?|[a-z`]`))|^([a-z]{4}`))"
     reverse_tick: "(^`$)|(^`[a-zA-Z]+$)"
@@ -331,18 +331,18 @@ recognizer:
     reverse_zrlf: "^olf[A-Za-z]*$"
     reverse_bopomofo: '^ovy[A-Za-z0-9,.;/\-]*$'
     # ojp 引導日語輸入
-    japanese_o: '(^ojp[a-z]*$)'
+    japanese_o: "(^ojp[a-z]*$)"
 
 recognizer_emoji:
   patterns:
     # CAVEAT: 排除 ^; 避免 ;d 無法自動上屏
     # CAVEAT: ^o 只保留 ^ou 和 ^o$，避免反查被干擾
-    has_emoji: '(^[a-np-z][a-z/]*$)|(^[a-z]$)|(^ou[a-z/]*$)'
+    has_emoji: "(^[a-np-z][a-z/]*$)|(^[a-z]$)|(^ou[a-z/]*$)"
 
 recognizer_secondary:
   patterns:
     # 1. 輸入長度達到 4 後開始輸出英語 *或* 前 4 字母中有大寫字母
-    english: '(^[A-Za-z]{4}[A-Za-z]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)'
+    english: "(^[A-Za-z]{4}[A-Za-z]*)|(^[A-Z][A-Za-z]*)|(^[a-z][A-Z][a-zA-Z]*)|(^[a-z][a-z][A-Z][a-zA-Z]*)"
     # 2. 對任何輸入都輸出英語
     # english: '.*'
     # 3. 輸入長度達到 4 後開始輸出英語
@@ -380,9 +380,9 @@ moran:
   # 當一個字具有簡碼時，打其全碼（不論是 yyxx 還是 yyxxo）都會導致該
   # 字讓出首位，而被推遲到後位。
   ijrq:
-    enable: true       # 是否啓用單字的出簡讓全？
+    enable: true # 是否啓用單字的出簡讓全？
     #defer: 5          # 延遲多少位？若不設置该项，或值小於等於 0，則推遲到第二頁的首選
-    show_hint: true    # 若讓全，則提示簡碼打法
+    show_hint: true # 若讓全，則提示簡碼打法
 
     # 詞語級「讓全」，對二、三、四字詞有效
     # 例：假設 lmjx 的輸出是 1.連接 2.鏈接
@@ -398,7 +398,7 @@ moran:
     enable_word_delay: 0
 
   # 單字或詞輔的輔助碼提示
-  # 
+  #
   # 單字輔助碼會顯示出所有可能的輔助碼，且不顯示拆分
   # 建議使用 Ctrl+i 切換輔助碼拆分提示功能
   #
@@ -413,10 +413,10 @@ moran:
   quick_code_hint_skip_chars: false
 
   # 輸入四碼時，如果簡碼碼表中含有對應條目，則放置在第二選項。
-  inject_fixed_chars: false   # 是否輸出簡碼碼表單字，例：輸入 jwrg 時，次選爲「佳」
-  inject_fixed_words: true    # 是否輸出簡碼碼表詞語，例：輸入 lmsd 時，次選爲「兩面三刀」
+  inject_fixed_chars: false # 是否輸出簡碼碼表單字，例：輸入 jwrg 時，次選爲「佳」
+  inject_fixed_words: true # 是否輸出簡碼碼表詞語，例：輸入 lmsd 時，次選爲「兩面三刀」
   # (僅*動詞模式*) 是否優先輸出單字或詞組
-  inject_prioritize: "any"    # char 優先單字, word 優先詞組，其他取值理解爲按碼表順序
+  inject_prioritize: "any" # char 優先單字, word 優先詞組，其他取值理解爲按碼表順序
 
   # 「置頂」功能相關設置
   # 輸入時通過快捷鍵 Ctrl+t 可以將高亮顯示的候選置頂，被置頂的候選位置固定，不再參與調頻
@@ -464,4 +464,3 @@ __include: moran:/octagram/enable_for_sentence
 # 若要禁用，可直接刪掉上面的 __include，或在 custom 文件中寫入：
 # patch:
 #   __include: moran:/octagram/disable
- 
